@@ -44,6 +44,9 @@ StarWars Characters GPT is a specialized fine-tuning project that allows you to 
 # Clone repository
 git clone https://github.com/Ryxul/StarWars-Characters-GPT.git
 cd StarWars-Characters-GPT
+
+# Install required packages
+pip install -r requirements.txt
 ```
 
 ### Prepare Training Data

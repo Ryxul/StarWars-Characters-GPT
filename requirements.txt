@@ -1,0 +1,6 @@
+peft==0.10.0
+bitsandbytes==0.43.1
+trl==0.8.6
+accelerate==0.29.3
+transformers==4.40.1
+tensorboardx==2.6.2.2 
