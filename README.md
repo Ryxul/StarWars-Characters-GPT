@@ -49,11 +49,7 @@ cd StarWars-Characters-GPT
 1. Create two text files:
    - `questions.txt`: One question per line
    - `answers.txt`: Corresponding character responses
-2. Use `data_processing.ipynb` to format data:
-   ```python
-   file1_path = "data/your_questions.txt"
-   file2_path = "data/your_answers.txt"
-   output_path = "data/formatted_data.txt"
+2. Use `data_processing.ipynb` to format data.
    ```
 
 ### Fine-tuning Process
