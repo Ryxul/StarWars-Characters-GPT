@@ -44,17 +44,16 @@ StarWars Characters GPT is a specialized fine-tuning project that allows you to 
 # Clone repository
 git clone https://github.com/Ryxul/StarWars-Characters-GPT.git
 cd StarWars-Characters-GPT
+```
 
-### Data Preparation
-1. Create two text files:
-   - `questions.txt`: One question per line
-   - `answers.txt`: Corresponding character responses
-2. Use `data_processing.ipynb` to format data:
-   ```python
-   file1_path = "data/your_questions.txt"
-   file2_path = "data/your_answers.txt"
-   output_path = "data/formatted_data.txt"
-   ```
+### Prepare Training Data
+- Format: `<s>[INST] SAMPLE QUESTION [/INST] SAMPLE ANSWER </s>`
+- One conversation per line in a `.txt` file
+- Sample datasets included:
+  - Yoda dialogue
+  - Jar-Jar Binks dialogue
+
+> **Note**: Use `data_processing.ipynb` to easily format your data. See program comments for detailed instructions.
 
 ### Fine-tuning Process
 1. Open `fine_tuning.ipynb` in Jupyter Notebook
